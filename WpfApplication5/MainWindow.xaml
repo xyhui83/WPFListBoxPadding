@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApplication5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" Background="Green" PreviewMouseLeftButtonUp="windowClick">
+    <Grid Background="Yellow" Margin="20" PreviewMouseLeftButtonUp="Grid_out_Click">
+        <Grid Margin="30" Background="blue" PreviewMouseLeftButtonUp="Grid_Click">
+            <Button Content="标签" Background="LightCyan" PreviewMouseLeftButtonUp="btnClick"/>
+        </Grid>
+    </Grid>
+</Window>
